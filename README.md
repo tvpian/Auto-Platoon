@@ -1,4 +1,5 @@
 # Auto Platoon
+### A bio-inspired leader-follower framework for connected vehicle system.
 
 ## Setup
 
