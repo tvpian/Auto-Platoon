@@ -9,7 +9,7 @@
 
 ## Setup
 
-- Create a python virtual environment to install the dependencies for the project. 
+- Create a Python virtual environment to install the dependencies for the project. 
     ```
     python3 -m venv <path_to_virtual_env>
     source <path_to_virtual_env>/bin/activate
@@ -41,7 +41,7 @@
 ---
 
 ## Details
-* `sort.py` is referred from `sort_v2.py` in tracking branch.
+* `sort.py` is referred from `sort_v2.py` in the tracking branch.
 
 ### Instructions To Run The Follower Code
 1. Once the main server is started, follower.py code is run.
@@ -56,4 +56,6 @@
 4. Open a terminal and run the "leader.py" file while the main server of socket is running.
 
 ### Videos
-* Results: The follower will be following the leader with a threshold distance as long as it tracks the leader. If a Dynamic Obstacle comes into the play the follower pauses the motion and communicates with the leader and other followers to stop. Once the obstacle goes out of the frame and follower is tracking the leader the whole platoon system starts moving again. [Link](https://drive.google.com/drive/u/1/folders/1lEYSDns3Q3QMbOsjFyqpdVxPJQgv3-mY?authuser=0)
+* Results: The follower will be following the leader with a threshold distance as long as it tracks the leader. If a Dynamic Obstacle comes into the play the follower pauses the motion and communicates with the leader and other followers to stop. Once the obstacle goes out of the frame and the follower is tracking the leader the whole platoon system starts moving again. [Link](https://drive.google.com/drive/u/1/folders/1lEYSDns3Q3QMbOsjFyqpdVxPJQgv3-mY?authuser=0)
+[Auto Platoon Demo.webm](https://github.com/tvpian/Auto-Platoon/assets/41953267/e58f3b4e-d702-4a13-9c3b-998e97244363)
+
