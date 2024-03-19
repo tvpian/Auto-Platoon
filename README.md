@@ -1,11 +1,4 @@
-# ENPM 673 - Project 5
-
-## Team Members
-* Abhijay Singh (UID - 118592619)
-* Tharun Puthanveettil (UID - 119069516)
-* Yashveer Jain (UID - 119252864)
-* Sameer Arjun S (UID - 119385876)
-* Vinay Bukka (UID - 18176680)
+# Auto Platoon
 
 ## Setup
 
