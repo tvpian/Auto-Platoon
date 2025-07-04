@@ -1,5 +1,6 @@
 # Auto Platoon
-### A bio-inspired leader-follower framework for connected vehicle system.
+### A bio-inspired leader-follower framework for connected vehicle systems.
+[Auto Platoon Demo.webm](https://github.com/tvpian/Auto-Platoon/assets/41953267/66060d69-a4c1-4147-adad-6c634e6834d4)
 
 ## Setup
 
@@ -35,23 +36,22 @@
 ---
 
 ## Details
-* `sort.py` is referred from `sort_v2.py` in the tracking branch.
+* `sort.py` is referred to from `sort_v2.py` in the tracking branch.
 
 ### Instructions To Run The Follower Code
-1. Once the main server is started, follower.py code is run.
-2. To Run "follower.py" code in Rasberry Pi, first you need to ssh into Rasberry pi of the follower robot using "ssh username@password". 
+1. Once the main server is started, the follower.py code is run.
+2. To run the "follower.py" code in Rasberry Pi, first you need to ssh into Rasberry pi of the follower robot using "ssh username@password". 
 3. Transfer the script file to the Rasberry Pi and install all necessary libraries such as opencv, flask, socket, imutils, numpy, gpio.
-4. Open a terminal and run the "follower.py" file while the main server of socket is running.
+4. Open a terminal and run the "follower.py" file while the main server of the socket is running.
 
 ### Instructions To Run The Leader Code
-1. Once the main server is started, leader.py code is run.
-2. To Run "leader.py" code in Rasberry Pi, first you need to ssh into Rasberry pi of the Leader robot using "ssh username@password". 
+1. Once the main server is started, the leader.py code is run.
+2. To Run the "leader.py" code in the Raspberry Pi, first you need to SSH into the Raspberry Pi of the Leader robot using "ssh username@password". 
 3. Transfer the script file to the Rasberry Pi and install all necessary libraries such as opencv, flask, socket, imutils, numpy, gpio.
-4. Open a terminal and run the "leader.py" file while the main server of socket is running.
+4. Open a terminal and run the "leader.py" file while the main server of the socket is running.
 
 ### Videos
-* Results: The follower will be following the leader with a threshold distance as long as it tracks the leader. If a Dynamic Obstacle comes into the play the follower pauses the motion and communicates with the leader and other followers to stop. Once the obstacle goes out of the frame and the follower is tracking the leader the whole platoon system starts moving again. [Link](https://drive.google.com/drive/u/1/folders/1lEYSDns3Q3QMbOsjFyqpdVxPJQgv3-mY?authuser=0)
-* 
-[Auto Platoon Demo.webm](https://github.com/tvpian/Auto-Platoon/assets/41953267/66060d69-a4c1-4147-adad-6c634e6834d4)
+* Results: The follower will be following the leader with a threshold distance as long as it tracks the leader. If a Dynamic Obstacle comes into play, the follower pauses the motion and communicates with the leader and other followers to stop. Once the obstacle goes out of the frame and the follower is tracking the leader, the whole platoon system starts moving again. [Link](https://drive.google.com/drive/u/1/folders/1lEYSDns3Q3QMbOsjFyqpdVxPJQgv3-mY?authuser=0)
+
 
 
